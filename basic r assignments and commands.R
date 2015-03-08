@@ -49,11 +49,11 @@ x<- factor(c("yes","yes","yes","no","no"),
 v<-c(1,2,NA, 10, 3)
 is.na(v)
 is.nan(v)
-
 d<-c(1,2,NA, NaN, 3)
 is.na(d)
 is.nan(d)
 
+sum(is.na(hw))
 ## Data Frame - store tabular data
 ## every row has a name
 ## created by calling read.table or read.csv
